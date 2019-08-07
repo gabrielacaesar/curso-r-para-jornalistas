@@ -20,6 +20,7 @@ VEJA A [EMENTA COMPLETA](https://github.com/gabrielacaesar/curso-r-para-jornalis
 [Webscraping - Adelmo Filho](https://github.com/adelmofilho/WebScraping)       
 [Análise de dados em R - Datacamp - pago](https://www.datacamp.com/tracks/data-analyst-with-r)       
 [Introdução a Data Science - FGV](https://github.com/rsouza/FGV_Intro_DS)       
+[Análises de David Robinson no YouTube](https://www.youtube.com/user/safe4democracy/videos)      
 
 ## Textos recomendados
 [Análise de R com dados do Tesouro Nacional - Fernando Barbalho (pt)](https://medium.com/tchiluanda/suporte-do-rstats-%C3%A0s-iniciativas-de-transpar%C3%AAncia-do-tesouro-nacional-brasileiro-dfdd5e1ab831)       
@@ -45,3 +46,30 @@ VEJA A [EMENTA COMPLETA](https://github.com/gabrielacaesar/curso-r-para-jornalis
 [Oficinas de jornalismo de dados na Abraji](https://github.com/abraji/cursos_congresso_2019)      
 [Lista de raspadores de sites americanos](https://github.com/stanfordjournalism/search-script-scrape)      
 [Pacote para criar gráficos da BBC](https://github.com/bbc/bbplot)      
+
+## Quem seguir   
+[Escola de Dados](https://twitter.com/EscolaDeDados)    
+[Curso-R](https://twitter.com/curso_r)    
+[Natalia Mazotte](https://twitter.com/NataliaMazotte)
+[Abraji](https://twitter.com/abraji)    
+[R-Ladies SP](https://twitter.com/RLadiesSaoPaulo)    
+[R-Ladies Global](https://twitter.com/RLadiesGlobal)    
+[Álvaro Justen](https://twitter.com/turicas)
+[Adriano Belisário](https://twitter.com/belisards)
+[Tarcízio Silva](https://twitter.com/tarushijio)
+[David Robinson](https://twitter.com/drob)    
+[Steven Bernard](https://twitter.com/sdbernard)    
+[Beatriz Milz](https://twitter.com/BeaMilz)    
+[Gabriela de Queiroz](https://twitter.com/gdequeiroz)    
+[Alex Selby-Boothroyd](https://twitter.com/AlexSelbyB)    
+[Rob England](https://twitter.com/England_Rob_)    
+[Umesh](https://twitter.com/datujn)    
+[R4DS online learning community](https://twitter.com/R4DScommunity)    
+[Thomas Mock](https://twitter.com/thomas_mock)    
+[Mara Averick](https://twitter.com/dataandme)    
+[datavizbr](https://twitter.com/datavizbr)    
+[Julio Trecenti](https://twitter.com/jtrecenti)    
+[Hadley Wickham](https://twitter.com/hadleywickham)      
+[Athos Petri Damiani](https://twitter.com/athos_damiani)      
+[William Amorim](https://twitter.com/Williamorim89)   
+
