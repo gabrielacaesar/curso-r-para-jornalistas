@@ -9,6 +9,7 @@
 - Raspar dados de um site.   
 
 VEJA A [EMENTA COMPLETA](https://github.com/gabrielacaesar/curso-r-para-jornalistas/blob/master/Ementa.md).
+FUTURO SITE: http://www.curso-de-programacao-em-r-para-jornalistas.com/      
 
 ## Cursos recomendados
 [Introdução a R - Leo Barone](https://github.com/leobarone/cebrap_lab_cetic_programacao_r)    
