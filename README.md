@@ -39,7 +39,7 @@ VEJA A [EMENTA COMPLETA](https://github.com/gabrielacaesar/curso-r-para-jornalis
 [Outros livros mais avançados (en)](https://github.com/maxto/R-Books)      
 
 ## Repositórios úteis
-[Download automatizado de fotos do Instagram](https://github.com/rarcega/instagram-scraper)      
+[Download automatizado de fotos/vídeos do Instagram](https://github.com/rarcega/instagram-scraper)      
 [Download automatizado de tweets](https://github.com/tweepy/tweepy)      
 [TidyTuesday - sugestões de vários bases de dados](https://github.com/rfordatascience/tidytuesday)      
 [Oficinas de jornalismo de dados na Abraji](https://github.com/abraji/cursos_congresso_2019)      
