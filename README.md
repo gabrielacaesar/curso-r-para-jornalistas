@@ -40,7 +40,7 @@ VEJA A [EMENTA COMPLETA](https://github.com/gabrielacaesar/curso-r-para-jornalis
 
 ## Repositórios úteis
 [Download automatizado de fotos do Instagram](https://github.com/rarcega/instagram-scraper)      
-[Download automatizado de tweets acima do limite da API e tb sem chave de acesso](https://github.com/tweepy/tweepy)      
+[Download automatizado de tweets](https://github.com/tweepy/tweepy)      
 [TidyTuesday - sugestões de vários bases de dados](https://github.com/rfordatascience/tidytuesday)      
 [Oficinas de jornalismo de dados na Abraji](https://github.com/abraji/cursos_congresso_2019)      
 [Lista de raspadores de sites americanos](https://github.com/stanfordjournalism/search-script-scrape)      
