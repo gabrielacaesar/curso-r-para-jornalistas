@@ -11,32 +11,32 @@
 VEJA A [EMENTA COMPLETA](https://github.com/gabrielacaesar/curso-r-para-jornalistas/blob/master/Ementa.md).
 
 ## Cursos recomendados
-[R para jornalistas - Andrew Ba Tran](https://learn.r-journalism.com/en/introduction/)       
-[Introdução a R - Leo Barone](https://github.com/leobarone/cebrap_lab_cetic_programacao_r)       
+[Introdução a R - Leo Barone](https://github.com/leobarone/cebrap_lab_cetic_programacao_r)    
+[R para jornalistas - Andrew Ba Tran](https://learn.r-journalism.com/en/introduction/)        
 [Introdução a R - Kingaa](http://kingaa.github.io/R_Tutorial/)       
-[Introdução a R - Curso-R](https://github.com/curso-r/201805-introducao-a-programacao-em-r)       
+[Introdução a R - Curso-R ](https://github.com/curso-r/201805-introducao-a-programacao-em-r)       
 [Curso de jornalismo de dados - Rodrigo Menegat](https://github.com/RodrigoMenegat/jgd-1)       
 [Webscraping - Curso-R](https://github.com/curso-r/201904-workshop-web-scraping)       
 [Webscraping - Adelmo Filho](https://github.com/adelmofilho/WebScraping)       
-[Análise de dados em R - Datacamp](https://www.datacamp.com/tracks/data-analyst-with-r)       
+[Análise de dados em R - Datacamp - pago](https://www.datacamp.com/tracks/data-analyst-with-r)       
 [Introdução a Data Science - FGV](https://github.com/rsouza/FGV_Intro_DS)       
 
 ## Textos recomendados
-[Análise de R com dados do Tesouro Nacional - Fernando Barbalho](https://medium.com/tchiluanda/suporte-do-rstats-%C3%A0s-iniciativas-de-transpar%C3%AAncia-do-tesouro-nacional-brasileiro-dfdd5e1ab831)       
-[Texto sobre o uso de R na redação da BBC](https://medium.com/hacks-hackers-london/how-bbc-data-journalists-use-r-for-data-visualization-e29ee74948e1)       
-[Análise com os dados do Tinder - Brayden Gerrard](https://towardsdatascience.com/117-days-of-tinder-in-data-755fe9ed853e)       
-[Análise com os dados do Titanic - Samarth Malik](https://towardsdatascience.com/data-analysis-and-visualisations-using-r-955a7e90f7dd)    
-[Compilado de links de R](https://rddj.info/)      
+[Análise de R com dados do Tesouro Nacional - Fernando Barbalho (pt)](https://medium.com/tchiluanda/suporte-do-rstats-%C3%A0s-iniciativas-de-transpar%C3%AAncia-do-tesouro-nacional-brasileiro-dfdd5e1ab831)       
+[Texto sobre o uso de R na redação da BBC (en)](https://medium.com/hacks-hackers-london/how-bbc-data-journalists-use-r-for-data-visualization-e29ee74948e1)       
+[Análise com os dados do Tinder - Brayden Gerrard (en)](https://towardsdatascience.com/117-days-of-tinder-in-data-755fe9ed853e)       
+[Análise com os dados do Titanic - Samarth Malik (en)](https://towardsdatascience.com/data-analysis-and-visualisations-using-r-955a7e90f7dd)    
+[Compilado de links de R (en)](https://rddj.info/)      
 
 ## Livros recomendados
-[R for Data Science](https://r4ds.had.co.nz/)      
-[Exploratory Data Analysis with R](https://bookdown.org/rdpeng/exdata/)      
-[Cookbook for R](http://www.cookbook-r.com/)      
-[The tidyverse style guide](https://style.tidyverse.org/index.html)      
-[R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)      
-[Fundamentals of Data Visualization](https://serialmentor.com/dataviz/)      
-[Data Visualization with R](https://rkabacoff.github.io/datavis/)      
-[Outros livros mais avançados](https://github.com/maxto/R-Books)      
+[R for Data Science (en)](https://r4ds.had.co.nz/)      
+[Exploratory Data Analysis with R (en)](https://bookdown.org/rdpeng/exdata/)      
+[Cookbook for R (en)](http://www.cookbook-r.com/)      
+[The tidyverse style guide (en)](https://style.tidyverse.org/index.html)      
+[R Markdown: The Definitive Guide (en)](https://bookdown.org/yihui/rmarkdown/)      
+[Fundamentals of Data Visualization (en)](https://serialmentor.com/dataviz/)      
+[Data Visualization with R (en)](https://rkabacoff.github.io/datavis/)      
+[Outros livros mais avançados (en)](https://github.com/maxto/R-Books)      
 
 ## Repositórios úteis
 [Download automatizado de fotos do Instagram](https://github.com/rarcega/instagram-scraper)      
