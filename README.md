@@ -18,7 +18,7 @@ VEJA A [EMENTA COMPLETA](https://github.com/gabrielacaesar/curso-r-para-jornalis
 [Curso de jornalismo de dados - Rodrigo Menegat](https://github.com/RodrigoMenegat/jgd-1)       
 [Webscraping - Curso-R](https://github.com/curso-r/201904-workshop-web-scraping)       
 [Webscraping - Adelmo Filho](https://github.com/adelmofilho/WebScraping)       
-[Análise de dados em R - Datacamp - pago](https://www.datacamp.com/tracks/data-analyst-with-r)       
+[Análise de dados em R - Datacamp (pago)](https://www.datacamp.com/tracks/data-analyst-with-r)       
 [Introdução a Data Science - FGV](https://github.com/rsouza/FGV_Intro_DS)       
 [Análises de David Robinson no YouTube](https://www.youtube.com/user/safe4democracy/videos)      
 
