@@ -19,7 +19,9 @@ FUTURO SITE: http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Curso de jornalismo de dados - Rodrigo Menegat](https://github.com/RodrigoMenegat/jgd-1)       
 [Webscraping - Curso-R](https://github.com/curso-r/201904-workshop-web-scraping)       
 [Webscraping - Adelmo Filho](https://github.com/adelmofilho/WebScraping)       
-[Análise de dados em R - Datacamp (pago)](https://www.datacamp.com/tracks/data-analyst-with-r)       
+[Analista de dados em R - Datacamp (pago)](https://www.datacamp.com/tracks/data-analyst-with-r)       
+[Cientista de dados em R - Datacamp (pago)](https://www.datacamp.com/tracks/data-scientist-with-r)       
+[Programador em R - Datacamp (pago)](https://www.datacamp.com/tracks/r-programmer)       
 [Introdução a Data Science - FGV](https://github.com/rsouza/FGV_Intro_DS)       
 [Análises de David Robinson no YouTube](https://www.youtube.com/user/safe4democracy/videos)      
 
