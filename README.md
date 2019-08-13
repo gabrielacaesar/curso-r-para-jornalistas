@@ -23,6 +23,7 @@ FUTURO SITE: http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Cientista de dados em R - Datacamp (pago)](https://www.datacamp.com/tracks/data-scientist-with-r)       
 [Programador em R - Datacamp (pago)](https://www.datacamp.com/tracks/r-programmer)       
 [Introdução a Data Science - FGV](https://github.com/rsouza/FGV_Intro_DS)       
+[Análise e manipulação de dados - Daniel Duque](https://github.com/danielduque/Course_Brazilian_Data_Analysis)    
 [Análises de David Robinson no YouTube](https://www.youtube.com/user/safe4democracy/videos)      
 
 ## Textos recomendados
