@@ -27,6 +27,11 @@ FUTURO SITE: http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Análises de David Robinson no YouTube](https://www.youtube.com/user/safe4democracy/videos)      
 
 ## Textos recomendados
+[Análise da 'Pesquisa Origem Destino do Metrô SP - Sillas Gonzaga](http://sillasgonzaga.com/post/anunciando-um-novo-dataset-no-kaggle-pesquisa-origem-destino-do-metr%C3%B4-sp/)     
+[Análise sobre os serviços de streaming no Brasil - Sillas Gonzaga](http://sillasgonzaga.com/post/qual-o-melhor-servico-de-streaming/)      
+[Análise da abertura de escola em SP - Sillas Gonzaga](http://sillasgonzaga.com/post/mapeando-a-abertura-de-escolas-municipais-em-sao-paulo-ao-longo-dos-anos/)    
+[Análise das interações no BBB18 - Sillas Gonzaga](http://sillasgonzaga.com/post/bbb-no-r/)    
+[Análise para escolher onde morar no Rio - Sillas Gonzaga](http://sillasgonzaga.com/post/olx01/)      
 [Análise de R com dados do Tesouro Nacional - Fernando Barbalho (pt)](https://medium.com/tchiluanda/suporte-do-rstats-%C3%A0s-iniciativas-de-transpar%C3%AAncia-do-tesouro-nacional-brasileiro-dfdd5e1ab831)       
 [Texto sobre o uso de R na redação da BBC (en)](https://medium.com/hacks-hackers-london/how-bbc-data-journalists-use-r-for-data-visualization-e29ee74948e1)       
 [Análise com os dados do Tinder - Brayden Gerrard (en)](https://towardsdatascience.com/117-days-of-tinder-in-data-755fe9ed853e)       
