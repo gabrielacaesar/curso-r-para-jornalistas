@@ -29,7 +29,7 @@ FUTURO SITE: http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Análises de David Robinson no YouTube](https://www.youtube.com/user/safe4democracy/videos)      
 
 ## Textos recomendados
-[Análise da 'Pesquisa Origem Destino do Metrô SP - Sillas Gonzaga](http://sillasgonzaga.com/post/anunciando-um-novo-dataset-no-kaggle-pesquisa-origem-destino-do-metr%C3%B4-sp/)     
+[Análise da 'Pesquisa Origem Destino do Metrô SP' - Sillas Gonzaga](http://sillasgonzaga.com/post/anunciando-um-novo-dataset-no-kaggle-pesquisa-origem-destino-do-metr%C3%B4-sp/)     
 [Análise dos dados do SUS - Rodrigo Silva](https://github.com/rdsilva/Coda2018-SUS/blob/master/CodaBR2018.Rmd)     
 [Análise sobre os serviços de streaming no Brasil - Sillas Gonzaga](http://sillasgonzaga.com/post/qual-o-melhor-servico-de-streaming/)      
 [Análise da abertura de escola em SP - Sillas Gonzaga](http://sillasgonzaga.com/post/mapeando-a-abertura-de-escolas-municipais-em-sao-paulo-ao-longo-dos-anos/)    
