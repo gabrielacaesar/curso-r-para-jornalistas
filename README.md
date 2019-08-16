@@ -38,11 +38,15 @@ FUTURO SITE: http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Análise para escolher onde morar no Rio - Sillas Gonzaga](http://sillasgonzaga.com/post/olx01/)      
 [Análise da literatura brasileira - Sillas Gonzaga](http://sillasgonzaga.com/post/literaturabr-01/)     
 [Análise de R com dados do Tesouro Nacional - Fernando Barbalho (pt)](https://medium.com/tchiluanda/suporte-do-rstats-%C3%A0s-iniciativas-de-transpar%C3%AAncia-do-tesouro-nacional-brasileiro-dfdd5e1ab831)       
+[Análise de comidas e receitas - The Guardian (en)](https://towardsdatascience.com/analyzing-the-guardian-food-recipes-from-2009-to-2019-11b83e12efdf)     
 [Texto sobre o uso de R na redação da BBC (en)](https://medium.com/hacks-hackers-london/how-bbc-data-journalists-use-r-for-data-visualization-e29ee74948e1)       
 [Análise com os dados do Tinder - Brayden Gerrard (en)](https://towardsdatascience.com/117-days-of-tinder-in-data-755fe9ed853e)       
 [Análise com os dados do Titanic - Samarth Malik (en)](https://towardsdatascience.com/data-analysis-and-visualisations-using-r-955a7e90f7dd)    
 [Compilado de links de R (en)](https://rddj.info/)      
-[Tutorial de webscraping com R (en)](https://towardsdatascience.com/tidy-web-scraping-in-r-tutorial-and-resources-ac9f72b4fe47)   
+[Tutorial de webscraping com R - Keith McNulty (en)](https://towardsdatascience.com/tidy-web-scraping-in-r-tutorial-and-resources-ac9f72b4fe47)   
+[Tutorial de webscraping com R - Korkrid Kyle Akepanidtaworn (en)](https://medium.com/@kyleake/wikipedia-data-scraping-with-r-rvest-in-action-3c419db9af2d)   
+[Tutorial de webscraping sem saber programação - Jessica Temporal](https://medium.com/pizzadedados/raspando-sem-codigo-37caa24395ee)       
+[Lista de matérias de jornalismo de dados - Towards Data Science (en)](https://towardsdatascience.com/data-journalism/home)     
 
 ## Livros recomendados
 [R for Data Science (en)](https://r4ds.had.co.nz/)      
