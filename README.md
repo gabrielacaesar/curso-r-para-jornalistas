@@ -36,7 +36,7 @@ FUTURO SITE: http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Análise de músicas natalinas - Caitlin Hudon (en)](https://caitlinhudon.com/2017/12/22/blue-christmas/)     
 [Análise das interações no BBB18 - Sillas Gonzaga](http://sillasgonzaga.com/post/bbb-no-r/)    
 [Análise para escolher onde morar no Rio - Sillas Gonzaga](http://sillasgonzaga.com/post/olx01/)      
-[Análise dos dados de pulseira inteligente (en)](https://rstudio-pubs-static.s3.amazonaws.com/420021_c5d43709e7744a998d62189e754878a0.html)     
+[Análise dos dados de pulseira inteligente - Megan Beckett (en)](https://rstudio-pubs-static.s3.amazonaws.com/420021_c5d43709e7744a998d62189e754878a0.html)     
 [Análise da literatura brasileira - Sillas Gonzaga](http://sillasgonzaga.com/post/literaturabr-01/)     
 [Análise de R com dados do Tesouro Nacional - Fernando Barbalho](https://medium.com/tchiluanda/suporte-do-rstats-%C3%A0s-iniciativas-de-transpar%C3%AAncia-do-tesouro-nacional-brasileiro-dfdd5e1ab831)       
 [Análise de comidas e receitas - The Guardian (en)](https://towardsdatascience.com/analyzing-the-guardian-food-recipes-from-2009-to-2019-11b83e12efdf)     
