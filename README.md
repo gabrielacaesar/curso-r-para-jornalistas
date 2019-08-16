@@ -9,7 +9,9 @@
 - Raspar dados de um site.   
 
 VEJA A [EMENTA COMPLETA](https://github.com/gabrielacaesar/curso-r-para-jornalistas/blob/master/Ementa.md).       
-FUTURO SITE: http://www.curso-de-programacao-em-r-para-jornalistas.com/      
+
+##### O conteúdo deste repositório também está disponível neste site:    
+http://www.curso-de-programacao-em-r-para-jornalistas.com/      
 
 ## Cursos recomendados
 [Analista de dados em R - Datacamp (pago)](https://www.datacamp.com/tracks/data-analyst-with-r)       
