@@ -8,7 +8,7 @@
 - Juntar dois arquivos com coluna igual;   
 - Raspar dados de um site.   
 
-VEJA A [EMENTA COMPLETA](https://github.com/gabrielacaesar/curso-r-para-jornalistas/blob/master/Ementa.md).       
+##### VEJA A [EMENTA COMPLETA](https://github.com/gabrielacaesar/curso-r-para-jornalistas/blob/master/Ementa.md).       
 
 ##### O conteúdo deste repositório também está disponível neste site:    
 http://www.curso-de-programacao-em-r-para-jornalistas.com/      
