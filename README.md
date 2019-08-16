@@ -42,6 +42,7 @@ FUTURO SITE: http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Análise com os dados do Tinder - Brayden Gerrard (en)](https://towardsdatascience.com/117-days-of-tinder-in-data-755fe9ed853e)       
 [Análise com os dados do Titanic - Samarth Malik (en)](https://towardsdatascience.com/data-analysis-and-visualisations-using-r-955a7e90f7dd)    
 [Compilado de links de R (en)](https://rddj.info/)      
+[Tutorial de webscraping com R (en)](https://towardsdatascience.com/tidy-web-scraping-in-r-tutorial-and-resources-ac9f72b4fe47)   
 
 ## Livros recomendados
 [R for Data Science (en)](https://r4ds.had.co.nz/)      
