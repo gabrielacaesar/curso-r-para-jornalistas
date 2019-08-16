@@ -33,6 +33,7 @@ FUTURO SITE: http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Análise dos dados do SUS - Rodrigo Silva](https://github.com/rdsilva/Coda2018-SUS/blob/master/CodaBR2018.Rmd)     
 [Análise sobre os serviços de streaming no Brasil - Sillas Gonzaga](http://sillasgonzaga.com/post/qual-o-melhor-servico-de-streaming/)      
 [Análise da abertura de escola em SP - Sillas Gonzaga](http://sillasgonzaga.com/post/mapeando-a-abertura-de-escolas-municipais-em-sao-paulo-ao-longo-dos-anos/)    
+[Análise de músicas natalinas - Caitlin Hudon](https://caitlinhudon.com/2017/12/22/blue-christmas/)     
 [Análise das interações no BBB18 - Sillas Gonzaga](http://sillasgonzaga.com/post/bbb-no-r/)    
 [Análise para escolher onde morar no Rio - Sillas Gonzaga](http://sillasgonzaga.com/post/olx01/)      
 [Análise da literatura brasileira - Sillas Gonzaga](http://sillasgonzaga.com/post/literaturabr-01/)     
