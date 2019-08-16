@@ -60,6 +60,18 @@ FUTURO SITE: http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Data Visualization with R (en)](https://rkabacoff.github.io/datavis/)      
 [Outros livros mais avançados (en)](https://github.com/maxto/R-Books)      
 
+## Podcasts recomendados       
+[Pizza de dados](https://open.spotify.com/show/5k0Ei0MSg5BuiHshr43aSg)    
+[Hipsters Ponto Tech](https://open.spotify.com/show/2p0Vx75OmfsXktyLBuLuSf)      
+[Cabeça de Lab](https://open.spotify.com/show/6jYjcj4oQ31J85jGhbiRkK?si=HI9MyK6WQmaMwtwVzjpj5A)     
+[Data Hackers](https://open.spotify.com/show/1oMIHOXsrLFENAeM743g93)    
+[Senai Infocast](https://open.spotify.com/show/4ejfIbDoXJuJwEdAr9uXpE?si=LyvMZxYIQWKevcRlLHu2RA)     
+[DataFramed (en)](https://open.spotify.com/show/02yJXEJAJiQ0Vm2AO9Xj6X)    
+[Data Stories (en)](https://open.spotify.com/show/0aIvhK1ANin1kSOKRhWG1M)     
+[Data Viz Today (en)](https://open.spotify.com/show/5CZnmqFEL019QW7yJoKyCI)      
+[Beyond data (en)](https://open.spotify.com/artist/4F5TrtYYxsVM1PhbtISE5m)     
+[Data driven talk (en)](https://open.spotify.com/show/4n7eAuRtvb4YGm4H2I04q8)    
+
 ## Repositórios úteis
 [Download automatizado de fotos/vídeos do Instagram - Python](https://github.com/rarcega/instagram-scraper)      
 [Download automatizado de tweets - Python](https://github.com/tweepy/tweepy)      
