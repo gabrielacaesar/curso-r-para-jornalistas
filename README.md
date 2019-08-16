@@ -101,6 +101,7 @@ http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [David Robinson](https://twitter.com/drob)      
 [Steven Bernard](https://twitter.com/sdbernard)    
 [Beatriz Milz](https://twitter.com/BeaMilz)    
+[Bruna Wundervald](https://twitter.com/bwundervald)     
 [Gabriela de Queiroz](https://twitter.com/gdequeiroz)    
 [Alex Selby-Boothroyd](https://twitter.com/AlexSelbyB)    
 [Rob England](https://twitter.com/England_Rob_)    
