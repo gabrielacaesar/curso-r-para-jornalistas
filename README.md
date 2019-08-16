@@ -66,6 +66,7 @@ FUTURO SITE: http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Cabeça de Lab](https://open.spotify.com/show/6jYjcj4oQ31J85jGhbiRkK?si=HI9MyK6WQmaMwtwVzjpj5A)     
 [Data Hackers](https://open.spotify.com/show/1oMIHOXsrLFENAeM743g93)    
 [Senai Infocast](https://open.spotify.com/show/4ejfIbDoXJuJwEdAr9uXpE?si=LyvMZxYIQWKevcRlLHu2RA)     
+[Dev na estrada](https://open.spotify.com/show/6fokzmJXifHItiADsWkN3N)    
 [DataFramed (en)](https://open.spotify.com/show/02yJXEJAJiQ0Vm2AO9Xj6X)    
 [Data Stories (en)](https://open.spotify.com/show/0aIvhK1ANin1kSOKRhWG1M)     
 [Data Viz Today (en)](https://open.spotify.com/show/5CZnmqFEL019QW7yJoKyCI)      
