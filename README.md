@@ -45,6 +45,7 @@ FUTURO SITE: http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Compilado de links de R (en)](https://rddj.info/)      
 [Tutorial de webscraping com R - Keith McNulty (en)](https://towardsdatascience.com/tidy-web-scraping-in-r-tutorial-and-resources-ac9f72b4fe47)   
 [Tutorial de webscraping com R - Korkrid Kyle Akepanidtaworn (en)](https://medium.com/@kyleake/wikipedia-data-scraping-with-r-rvest-in-action-3c419db9af2d)   
+[Tutorial de webscraping em R - Martin Frigaard (en)](http://www.storybench.org/scraping-html-tables-and-downloading-files-with-r/)    
 [Tutorial de webscraping sem saber programação - Jessica Temporal](https://medium.com/pizzadedados/raspando-sem-codigo-37caa24395ee)       
 [Lista de matérias de jornalismo de dados - Towards Data Science (en)](https://towardsdatascience.com/data-journalism/home)     
 
