@@ -50,7 +50,9 @@ http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Tutorial de webscraping com R - Korkrid Kyle Akepanidtaworn (en)](https://medium.com/@kyleake/wikipedia-data-scraping-with-r-rvest-in-action-3c419db9af2d)   
 [Tutorial de webscraping em R - Martin Frigaard (en)](http://www.storybench.org/scraping-html-tables-and-downloading-files-with-r/)    
 [Tutorial de webscraping sem saber programação - Jessica Temporal](https://medium.com/pizzadedados/raspando-sem-codigo-37caa24395ee)       
-[Lista de matérias de jornalismo de dados - Towards Data Science (en)](https://towardsdatascience.com/data-journalism/home)     
+[Lista de matérias de jornalismo de dados - Towards Data Science (en)](https://towardsdatascience.com/data-journalism/home)  
+[R in the data journalism workflow at FiveThirtyEight (en)](https://flowingdata.com/2016/07/12/r-in-the-data-journalism-workflow-at-fivethirtyeight/) 
+[The growing popularity of R in data journalism (en)](https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/The-growing-popularity-of-R-in-data-journalism)
 
 ## Livros recomendados
 [R for Data Science (en)](https://r4ds.had.co.nz/)      
@@ -84,6 +86,10 @@ http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Oficinas de jornalismo de dados na Abraji](https://github.com/abraji/cursos_congresso_2019)      
 [Lista de raspadores de sites americanos](https://github.com/stanfordjournalism/search-script-scrape)      
 [Pacote para criar gráficos da BBC](https://github.com/bbc/bbplot)      
+[Repositório do Washington Post](https://github.com/wpinvestigative) 
+[Repositório de 'The Pudding'](https://github.com/the-pudding)    
+[Repositório de 'SRF Data'](https://github.com/srfdata)    
+[Repositório de '538'](https://github.com/fivethirtyeight)   
 
 ## Quem seguir   
 [Escola de Dados](https://twitter.com/EscolaDeDados)    
@@ -94,6 +100,7 @@ http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Thomas Mock](https://twitter.com/thomas_mock)    
 [Mara Averick](https://twitter.com/dataandme)    
 [Hadley Wickham](https://twitter.com/hadleywickham)    
+[Andrew Ba Tran](https://twitter.com/abtran)   
 [Natalia Mazotte](https://twitter.com/NataliaMazotte)     
 [Álvaro Justen](https://twitter.com/turicas)      
 [Adriano Belisário](https://twitter.com/belisards)    
