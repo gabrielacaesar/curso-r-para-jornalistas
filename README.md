@@ -81,7 +81,6 @@ http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Download automatizado de fotos/vídeos do Instagram - Python](https://github.com/rarcega/instagram-scraper)      
 [Download automatizado de tweets - Python](https://github.com/tweepy/tweepy)      
 [Nove de Julho - Dados da Alesp - Python](https://github.com/rodolfo-viana/novedejulho)    
-[Matérias e dados de 'The Pudding'](https://github.com/the-pudding/data)    
 [TidyTuesday - sugestões de vários bases de dados](https://github.com/rfordatascience/tidytuesday)      
 [Oficinas de jornalismo de dados na Abraji](https://github.com/abraji/cursos_congresso_2019)      
 [Lista de raspadores de sites americanos](https://github.com/stanfordjournalism/search-script-scrape)      
