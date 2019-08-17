@@ -86,8 +86,8 @@ http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Oficinas de jornalismo de dados na Abraji](https://github.com/abraji/cursos_congresso_2019)      
 [Lista de raspadores de sites americanos](https://github.com/stanfordjournalism/search-script-scrape)      
 [Pacote para criar gráficos da BBC](https://github.com/bbc/bbplot)      
-[Repositório do Washington Post](https://github.com/wpinvestigative) 
-[Repositório de 'The Pudding'](https://github.com/the-pudding)    
+[Repositório do Washington Post](https://github.com/wpinvestigative)      
+[Repositório de 'The Pudding'](https://github.com/the-pudding)      
 [Repositório de 'SRF Data'](https://github.com/srfdata)    
 [Repositório de '538'](https://github.com/fivethirtyeight)   
 
