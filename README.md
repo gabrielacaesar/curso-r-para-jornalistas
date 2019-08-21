@@ -14,13 +14,13 @@
 http://www.curso-de-programacao-em-r-para-jornalistas.com/      
 
 ## Cursos recomendados
-[Analista de dados em R - Datacamp (pago)](https://www.datacamp.com/tracks/data-analyst-with-r)       
-[Cientista de dados em R - Datacamp (pago)](https://www.datacamp.com/tracks/data-scientist-with-r)       
-[Programador em R - Datacamp (pago)](https://www.datacamp.com/tracks/r-programmer)       
+[Analista de dados em R - Datacamp (pago) (en)](https://www.datacamp.com/tracks/data-analyst-with-r)       
+[Cientista de dados em R - Datacamp (pago) (en)](https://www.datacamp.com/tracks/data-scientist-with-r)       
+[Programador em R - Datacamp (pago) (en)](https://www.datacamp.com/tracks/r-programmer)       
 [Introdução a R - Leo Barone](https://github.com/leobarone/cebrap_lab_cetic_programacao_r)    
-[Introdução à Programação e Ferramentas Computacionais para as Ciências Sociais - Leo Barone e Jonathan Phillips](https://github.com/leobarone/FLS6397_2018)    
-[R para jornalistas - Andrew Ba Tran](https://learn.r-journalism.com/en/introduction/)        
-[Introdução a R - Kingaa](http://kingaa.github.io/R_Tutorial/)       
+[Introdução a R para as Ciências Sociais - Leo Barone e Jonathan Phillips](https://github.com/leobarone/FLS6397_2018)    
+[R para jornalistas - Andrew Ba Tran (en)](https://learn.r-journalism.com/en/introduction/)        
+[Introdução a R - Kingaa (en)](http://kingaa.github.io/R_Tutorial/)       
 [Introdução a R - Curso-R ](https://github.com/curso-r/201805-introducao-a-programacao-em-r)       
 [Curso de jornalismo de dados - Rodrigo Menegat](https://github.com/RodrigoMenegat/jgd-1)       
 [Webscraping - Curso-R](https://github.com/curso-r/201904-workshop-web-scraping)       
@@ -28,7 +28,7 @@ http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Webscraping - Leo Barone](https://github.com/leobarone/cebrap_lab_raspagem_r)      
 [Introdução a Data Science - FGV](https://github.com/rsouza/FGV_Intro_DS)       
 [Análise e manipulação de dados - Daniel Duque](https://github.com/danielduque/Course_Brazilian_Data_Analysis)    
-[Análises de David Robinson no YouTube](https://www.youtube.com/user/safe4democracy/videos)      
+[Análises de David Robinson no YouTube (en)](https://www.youtube.com/user/safe4democracy/videos)      
 
 ## Textos recomendados
 [Análise da 'Pesquisa Origem Destino do Metrô SP' - Sillas Gonzaga](http://sillasgonzaga.com/post/anunciando-um-novo-dataset-no-kaggle-pesquisa-origem-destino-do-metr%C3%B4-sp/)     
