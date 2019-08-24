@@ -52,7 +52,8 @@ http://www.curso-de-programacao-em-r-para-jornalistas.com/
 [Tutorial de webscraping sem saber programação - Jessica Temporal](https://medium.com/pizzadedados/raspando-sem-codigo-37caa24395ee)       
 [Lista de matérias de jornalismo de dados - Towards Data Science (en)](https://towardsdatascience.com/data-journalism/home)  
 [R in the data journalism workflow at FiveThirtyEight (en)](https://flowingdata.com/2016/07/12/r-in-the-data-journalism-workflow-at-fivethirtyeight/)     
-[The growing popularity of R in data journalism (en)](https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/The-growing-popularity-of-R-in-data-journalism)
+[The growing popularity of R in data journalism (en)](https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/The-growing-popularity-of-R-in-data-journalism)   
+[Hollywood age gaps](https://julialedur.com.br/hollywood-age-gaps)    
 
 ## Livros recomendados
 [R for Data Science (en)](https://r4ds.had.co.nz/)      
