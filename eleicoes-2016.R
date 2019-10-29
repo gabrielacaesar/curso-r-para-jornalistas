@@ -7,49 +7,49 @@
 
 
 ## instalar as bibliotecas
-# Caso você ainda não tenha instalado os pacotes abaixo, você precisa rodar esse código com a função install.packages().
+# Caso vocÃª ainda nÃ£o tenha instalado os pacotes abaixo, vocÃª precisa rodar esse cÃ³digo com a funÃ§Ã£o install.packages().
 install.packages("tidyverse")
 install.packages("data.table")
 
 ## carregar as bibliotecas
-# Em seguida, precisamos carregar os pacotes que serão usados na análise com a função library().
+# Em seguida, precisamos carregar os pacotes que serÃ£o usados na anÃ¡lise com a funÃ§Ã£o library().
 library(tidyverse)
 library(data.table)
 
 ## importar o arquivo
-# Depois, usamos a função fread() para importar o arquivo. O nome do arquivo precisa estar entre aspas, como mostramos abaixo, e também deve informar o formato da extensão do arquivo (no caso, CSV).
+# Depois, usamos a funÃ§Ã£o fread() para importar o arquivo. O nome do arquivo precisa estar entre aspas, como mostramos abaixo, e tambÃ©m deve informar o formato da extensÃ£o do arquivo (no caso, CSV).
 consulta_cand_BR <- fread("~/Downloads/consulta_cand_2016_28out2019/consulta_cand_2016_BRASIL.csv", sep=";")
 
 ## abrir o arquivo no RStudio
-# A função View() abre o arquivo em uma das abas do RStudio e te permite, por exemplo, olhar o arquivi e também buscar por termos.
+# A funÃ§Ã£o View() abre o arquivo em uma das abas do RStudio e te permite, por exemplo, olhar o arquivi e tambÃ©m buscar por termos.
 View(consulta_cand_BR)
 
-## ver as cincos primeiras linhas
-# A função head() mostra, por padrão, as cinco primeiras linhas do arquivo lido. Também possível informar que queremos ver, por exemplo, as oito primeiras linhas do arquivo lido, com head(consulta_cand_BR, 8).
+## ver as seis primeiras linhas
+# A funÃ§Ã£o head() mostra, por padrÃ£o, as seis primeiras linhas do arquivo lido. TambÃ©m possÃ­vel informar que queremos ver, por exemplo, as oito primeiras linhas do arquivo lido, com head(consulta_cand_BR, 8).
 head(consulta_cand_BR)
 
 head(consulta_cand_BR, 8)
 
 ## conferir o arquivo
-# A função summary() é outra função para conseguir algumas informações sobre o arquivo.
+# A funÃ§Ã£o summary() Ã© outra funÃ§Ã£o para conseguir algumas informaÃ§Ãµes sobre o arquivo.
 summary(consulta_cand_BR)
 
-## mostrar as correspondências únicas
-# A função unique() mostra as correspondências únicas de determinada coluna.
+## mostrar as correspondÃªncias Ãºnicas
+# A funÃ§Ã£o unique() mostra as correspondÃªncias Ãºnicas de determinada coluna.
 unique(consulta_cand_BR$DS_CARGO)
 
 ## mostrar o tamanho
-# A função length() mostra o tamanho de determinada coluna.
+# A funÃ§Ã£o length() mostra o tamanho de determinada coluna.
 length(consulta_cand_BR$DS_CARGO)
 length(unique(consulta_cand_BR$DS_CARGO))
 
 ## filtrar o arquivo
-# Usamos a função filter() para filtrar o arquivo, já que só queremos os dados referentes a candidatos a prefeito. Abaixo, filtramos a coluna "DS_CARGO" por "PREFEITO" (ou seja, não entram os vice-prefeitos e os vereadores);
+# Usamos a funÃ§Ã£o filter() para filtrar o arquivo, jÃ¡ que sÃ³ queremos os dados referentes a candidatos a prefeito. Abaixo, filtramos a coluna "DS_CARGO" por "PREFEITO" (ou seja, nÃ£o entram os vice-prefeitos e os vereadores);
 consulta_prefeito <- consulta_cand_BR %>%
   filter(DS_CARGO == "PREFEITO")
 
 ## selecionar as colunas
-# Como não queremos trabalhar com um arquivo muito grande, nós selecionamos quais colunas queremos manter no arquivo. Para isso, usamos a função select().
+# Como nÃ£o queremos trabalhar com um arquivo muito grande, nÃ³s selecionamos quais colunas queremos manter no arquivo. Para isso, usamos a funÃ§Ã£o select().
 consulta_prefeito <- consulta_prefeito %>%
   select(SG_UF, SG_UE, NM_UE, NM_CANDIDATO,
          NM_URNA_CANDIDATO, SG_PARTIDO, DS_SIT_TOT_TURNO,
@@ -57,22 +57,22 @@ consulta_prefeito <- consulta_prefeito %>%
 
 View(consulta_prefeito)
 
-## renomear cabeçalho
-# Também renomeamos os nomes de algumas colunas do arquivo (o novo nome aparece primeiro e precisa estar entre aspas). Usamos a função rename().
+## renomear cabeÃ§alho
+# TambÃ©m renomeamos os nomes de algumas colunas do arquivo (o novo nome aparece primeiro e precisa estar entre aspas). Usamos a funÃ§Ã£o rename().
 consulta_prefeito <- consulta_prefeito %>%
   rename("NM_PREFEITO" =  NM_CANDIDATO,
          "NM_URNA_PREFEITO" = NM_URNA_CANDIDATO,
          "SG_PARTIDO_PREFEITO" = SG_PARTIDO,
          "DS_SIT_TOT_TURNO_PREFEITO" = DS_SIT_TOT_TURNO)
 
-## contar o número de candidatos a prefeito por partido
-# Usamos as funções group_by() e summarise() para contabilizar quantos candidatos a prefeito cada partido teve. Por isso, inserimos a coluna "SG_PARTIDO_PREFEITO" dentro de group_by(). E pedimos, com n(), para contar em quantas linhas cada partido aparece.
+## contar o nÃºmero de candidatos a prefeito por partido
+# Usamos as funÃ§Ãµes group_by() e summarise() para contabilizar quantos candidatos a prefeito cada partido teve. Por isso, inserimos a coluna "SG_PARTIDO_PREFEITO" dentro de group_by(). E pedimos, com n(), para contar em quantas linhas cada partido aparece.
 cand_prefeito_por_partido <- consulta_prefeito %>%
   group_by(SG_PARTIDO_PREFEITO) %>%
   summarise(int = n())
 
-## contar o número de candidatos a prefeito, vice-prefeito e vereador por partido
-# Usamos as funções group_by() e summarise() para contabilizar quantos candidatos a cada cargo cada partido teve. Agora, repare, inserimos tanto "DS_CARGO" quanto "SG_PARTIDO" dentro de group_by(). Novamente, usamos o summarise() e o n() para contar o número de linhas, já que cada linha é um candidato.
+## contar o nÃºmero de candidatos a prefeito, vice-prefeito e vereador por partido
+# Usamos as funÃ§Ãµes group_by() e summarise() para contabilizar quantos candidatos a cada cargo cada partido teve. Agora, repare, inserimos tanto "DS_CARGO" quanto "SG_PARTIDO" dentro de group_by(). Novamente, usamos o summarise() e o n() para contar o nÃºmero de linhas, jÃ¡ que cada linha Ã© um candidato.
 cand_por_partido <- consulta_cand_BR %>%
   group_by(DS_CARGO, SG_PARTIDO) %>%
   summarise(int = n())
@@ -80,19 +80,19 @@ cand_por_partido <- consulta_cand_BR %>%
 View(cand_por_partido)
 
 ## spread
-# Agora, queremos que cada linha seja um partido e que os cargos eletivos sejam as colunas. Os valores das colunas devem ser a soma da quantidade de candidatos. Usamos a função spread().
+# Agora, queremos que cada linha seja um partido e que os cargos eletivos sejam as colunas. Os valores das colunas devem ser a soma da quantidade de candidatos. Usamos a funÃ§Ã£o spread().
 cand_por_partido_new <- cand_por_partido %>%
   spread(DS_CARGO, int)
 
 ## gather
-# Já se quiséssemos voltar a como estava antes noós usamos a função gather().
+# JÃ¡ se quisÃ©ssemos voltar a como estava antes noÃ³s usamos a funÃ§Ã£o gather().
 cand_por_partido_new <- cand_por_partido_new %>%
   gather("VEREADOR", "PREFEITO", "VICE-PREFEITO")
 
 View(cand_por_partido_new)
 
-## tirar acentuação de nomes
-# Também podemos criar uma nova coluna no arquivo que contenha os nomes dos candidatos (NM_CANDIDATO) sem os acentos. Para isso, usamos a função rm_accent() do pacote abjutils. Usamos o mutate() para criar a nova coluna.
+## tirar acentuaÃ§Ã£o de nomes
+# TambÃ©m podemos criar uma nova coluna no arquivo que contenha os nomes dos candidatos (NM_CANDIDATO) sem os acentos. Para isso, usamos a funÃ§Ã£o rm_accent() do pacote abjutils. Usamos o mutate() para criar a nova coluna.
 install.packages("abjutils")
 library(abjutils)
 
@@ -100,14 +100,14 @@ novo_consulta_cand_BR <- consulta_cand_BR %>%
   mutate(NM_CANDIDATO_SEM_ACENTO = rm_accent(NM_CANDIDATO))
 
 ## criar nova coluna
-# Aqui, novamente usamos o mutate() e informamos que a nossa nova coluna se chama "coluna_zoada" e tem o conteúdo " Eu me chamo Gabriela. " em todas as linhas.
+# Aqui, novamente usamos o mutate() e informamos que a nossa nova coluna se chama "coluna_zoada" e tem o conteÃºdo " Eu me chamo Gabriela. " em todas as linhas.
 novo_consulta_cand_BR <- novo_consulta_cand_BR %>%
   mutate(coluna_zoada = "    Eu me chamo Gabriela. ")
 
 novo_consulta_cand_BR$coluna_zoada
 
-## tirar espaços excedentes
-# A coluna "coluna_zoada" tem vários espaços desnecessários que atrapalham o seu conteúdo. Para resolver esse problema, vamos usar a função str_trim().
+## tirar espaÃ§os excedentes
+# A coluna "coluna_zoada" tem vÃ¡rios espaÃ§os desnecessÃ¡rios que atrapalham o seu conteÃºdo. Para resolver esse problema, vamos usar a funÃ§Ã£o str_trim().
 novo_consulta_cand_BR <- novo_consulta_cand_BR %>%
   mutate(coluna_zoada = str_trim(coluna_zoada))
 
@@ -118,14 +118,14 @@ novo_consulta_cand_BR$coluna_zoada
 novo_consulta_cand_BR$coluna_zoada <- NULL
 
 ## substituir texto
-# Também podemos usar str_replace() ou str_replace_all() para fazer substituições no arquivo. Por exemplo, queremos substituir "AVANTE" por "Avante".
+# TambÃ©m podemos usar str_replace() ou str_replace_all() para fazer substituiÃ§Ãµes no arquivo. Por exemplo, queremos substituir "AVANTE" por "Avante".
 novo_consulta_cand_BR <- novo_consulta_cand_BR %>%
   mutate(SG_PARTIDO = str_replace_all(SG_PARTIDO, "AVANTE", "Avante"))
 
 unique(novo_consulta_cand_BR$SG_PARTIDO)
 
 ## remover texto
-# Nessa mesma coluna (SG_PARTIDO), nós queremos apagar os espacços que aparecem em alguns partidos, como "PC do B" e "PT do B". Por isso, vamos usar str_remove_all().
+# Nessa mesma coluna (SG_PARTIDO), nÃ³s queremos apagar os espacÃ§os que aparecem em alguns partidos, como "PC do B" e "PT do B". Por isso, vamos usar str_remove_all().
 
 novo_consulta_cand_BR <- novo_consulta_cand_BR %>%
   mutate(SG_PARTIDO = str_remove_all(SG_PARTIDO, " "))
@@ -133,14 +133,14 @@ novo_consulta_cand_BR <- novo_consulta_cand_BR %>%
 unique(novo_consulta_cand_BR$SG_PARTIDO)
 
 ## detectar texto
-# Usamos a função str_detect() para encontrar determinado texto. Por exemplo, na coluna "DS_COMPOSICAO_COLIGACAO" nós queremos filtrar apenas as linhas que contenham o texto "PSL". O "PSL" não aparece sozinho nas linhas, então o str_detect() nos ajuda nisso.
+# Usamos a funÃ§Ã£o str_detect() para encontrar determinado texto. Por exemplo, na coluna "DS_COMPOSICAO_COLIGACAO" nÃ³s queremos filtrar apenas as linhas que contenham o texto "PSL". O "PSL" nÃ£o aparece sozinho nas linhas, entÃ£o o str_detect() nos ajuda nisso.
 consulta_cand_BR_PSL <- novo_consulta_cand_BR %>%
   filter(str_detect(DS_COMPOSICAO_COLIGACAO, "PSL"))
 
 unique(consulta_cand_BR_PSL$DS_COMPOSICAO_COLIGACAO)
 
 ## separar texto considerando delimitador
-# Se a gente quisesse saber quais candidatos nasceram em outubro, a gente poderia pegar o conteúdo da coluna DT_NASCIMENTO, que está no formato "dd/mm/YY", e pedir para separar as informações considerando o separador "/". A função para isso se chama separate(). Se quisermos manter a coluna original, podemos incluir remove = FALSE.
+# Se a gente quisesse saber quais candidatos nasceram em outubro, a gente poderia pegar o conteÃºdo da coluna DT_NASCIMENTO, que estÃ¡ no formato "dd/mm/YY", e pedir para separar as informaÃ§Ãµes considerando o separador "/". A funÃ§Ã£o para isso se chama separate(). Se quisermos manter a coluna original, podemos incluir remove = FALSE.
 novo_consulta_cand_BR_out <- novo_consulta_cand_BR %>%
   separate(DT_NASCIMENTO, c("dia",  "mes", "ano"), sep = "/", remove = FALSE) %>%
   filter(mes == "10")
@@ -148,18 +148,18 @@ novo_consulta_cand_BR_out <- novo_consulta_cand_BR %>%
 unique(novo_consulta_cand_BR_out$mes)
 
 ## unir texto considerando delimitador
-# Da mesma forma que nós podemos separar, nós também podemos unir. A função se chama unite(). Por exemplo, queremos uma coluna que tenha tanto o nome do munícipio quanto a sigla da UF. Queremos algo assim: "Angra dos Reis - RJ"; "Conde - BA"; "Santos - SP".
+# Da mesma forma que nÃ³s podemos separar, nÃ³s tambÃ©m podemos unir. A funÃ§Ã£o se chama unite(). Por exemplo, queremos uma coluna que tenha tanto o nome do munÃ­cipio quanto a sigla da UF. Queremos algo assim: "Angra dos Reis - RJ"; "Conde - BA"; "Santos - SP".
 novo_consulta_cand_BR_cidade <- novo_consulta_cand_BR %>%
   unite("cidade_e_UF", c("NM_UE", "SG_UF"), sep = " - ")
 
 unique(novo_consulta_cand_BR_cidade$cidade_e_UF)
 
 ## cruzar arquivos considerando colunas em comum
-# Esta etapa é bem importante. Nós agora vamos cruzar, com left_join(), os dois arquivos criados abaixo ("consulta_prefeito" e "consulta_vice_prefeito"). O cruzamento desses arquivos se chamará "consulta_merged".
+# Esta etapa Ã© bem importante. NÃ³s agora vamos cruzar, com left_join(), os dois arquivos criados abaixo ("consulta_prefeito" e "consulta_vice_prefeito"). O cruzamento desses arquivos se chamarÃ¡ "consulta_merged".
 
-# Para o cruzamento, não vamos levar em conta apenas uma coluna, mas sim três colunas. Para haver correspondência de um arquivo com o outro, ambos devem ter valores iguais nas colunas "SG_UF", "NM_UE", "DS_COMPOSICAO_COLIGACAO".
+# Para o cruzamento, nÃ£o vamos levar em conta apenas uma coluna, mas sim trÃªs colunas. Para haver correspondÃªncia de um arquivo com o outro, ambos devem ter valores iguais nas colunas "SG_UF", "NM_UE", "DS_COMPOSICAO_COLIGACAO".
 
-# Assim, teremos em apenas uma coluna informações sobre os candidatos a prefeito e vice-prefeito que estão na mesma chapa, na mesma cidade e na mesma UF.
+# Assim, teremos em apenas uma coluna informaÃ§Ãµes sobre os candidatos a prefeito e vice-prefeito que estÃ£o na mesma chapa, na mesma cidade e na mesma UF.
 
 consulta_prefeito <- consulta_cand_BR %>%
   filter(DS_CARGO == "PREFEITO") %>%
@@ -193,6 +193,6 @@ consulta_chapa_psl_pt_eleita <- consulta_chapa_psl_pt %>%
   filter(DS_SIT_TOT_TURNO_PREFEITO == "ELEITO")
 
 ## fazer o download de CSV
-# Para baixar a versão final do nosso arquivo, nós podemos fazer assim, com a função download.csv():
-download.csv(consulta_chapa_psl_pt_eleita, "consulta_chapa_psl_pt_eleita-27out2019.csv")
+# Para baixar a versÃ£o final do nosso arquivo, nÃ³s podemos fazer assim, com a funÃ§Ã£o write.csv():
+write.csv(consulta_chapa_psl_pt_eleita, "consulta_chapa_psl_pt_eleita-27out2019.csv")
 
