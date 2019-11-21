@@ -87,7 +87,7 @@ cand_por_partido_new <- cand_por_partido %>%
 ## gather
 # Já se quiséssemos voltar a como estava antes noós usamos a função gather().
 cand_por_partido_new <- cand_por_partido_new %>%
-  gather("VEREADOR", "PREFEITO", "VICE-PREFEITO")
+  gather(key = "DS_CARGO", value = "int", 2:4)
 
 View(cand_por_partido_new)
 
